@@ -13,6 +13,7 @@ import nltk
 import pandas as pd
 
 search_string = 'Type Primary Keyword Here'
+limit = 1000 # change this to however many search results you wish to cap at
 folder_path = r"C:\Type Output Dir Path Here"
 
 search_list = ['string_1', 'string_2', 'string_n']
